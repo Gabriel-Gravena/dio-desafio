@@ -1,3 +1,4 @@
+package ContaBanco;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -17,7 +18,7 @@ public class ContaTerminal {
         System.out.println("informe o saldo: ");
         double saldo = scanner.nextDouble();
 
-        System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é "+ agencia + ", conta "+ numAgencia +" e seu saldo "+ saldo +" já está disponível para saque");
+        System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é "+ agencia + ", conta "+ numAgencia +" e seu saldo "+ saldo +" já está disponível para saque!");
 
         scanner.close();
     }
